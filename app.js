@@ -5,10 +5,17 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 app.use(cors());
 
-app.get('/',(req,res)=>{
+app.get('/getJson',(req,res)=>{
     if(req.query.url){
         fetch(req.query.url)
         .then(data=>data.json())
+        .then(result=>res.send(result));
+    }
+});
+app.get('/getText',(req,res)=>{
+    if(req.query.url){
+        fetch(req.query.url)
+        .then(data=>data.text())
         .then(result=>res.send(result));
     }
 })
