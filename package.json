@@ -1,0 +1,28 @@
+{
+  "name": "cors-fetch-response",
+  "version": "1.0.0",
+  "description": "this package is for get response of cors affected web apis using fetch API.",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kk-007/cors-fetch-response.git"
+  },
+  "keywords": [
+    "cors",
+    "cors-api",
+    "fetch-cors"
+  ],
+  "author": "Keval Navadiya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kk-007/cors-fetch-response/issues"
+  },
+  "homepage": "https://github.com/kk-007/cors-fetch-response#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
