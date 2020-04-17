@@ -4,7 +4,8 @@
   "description": "this package is for get response of cors affected web apis using fetch API.",
   "main": "app.js",
   "scripts": {
-    "test": "npm app"
+    "test": "npm app",
+    "start":"node app.js"
   },
   "repository": {
     "type": "git",
